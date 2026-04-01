@@ -11,7 +11,12 @@
     "dev": "next dev -p 8000",
     "build": "next build",
     "start": "next start -p 8000",
-    "analyze": "ANALYZE=true next build"
+    "analyze": "ANALYZE=true next build",
+    "docker:up": "docker compose up --build -d",
+    "docker:down": "docker compose down",
+    "docker:logs": "docker compose logs -f medusa",
+    "docker:seed": "docker compose exec medusa npx medusa exec ./src/scripts/seed.ts",
+    "docker:user": "docker compose exec medusa npx medusa user -e admin@medusa-test.com -p supersecret"
   },
   "dependencies": {
     "@base-ui/react": "^1.3.0",

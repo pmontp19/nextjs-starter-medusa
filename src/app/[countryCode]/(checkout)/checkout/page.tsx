@@ -8,6 +8,16 @@ import { notFound } from "next/navigation"
 
 export const metadata: Metadata = {
   title: "Checkout",
+  description: "Complete your purchase",
+  openGraph: {
+    title: "Checkout | Medusa Store",
+    description: "Complete your purchase",
+    type: "website",
+  },
+  robots: {
+    index: false,
+    follow: false,
+  },
 }
 
 export default async function Checkout() {

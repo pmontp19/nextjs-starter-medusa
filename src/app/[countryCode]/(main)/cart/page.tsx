@@ -7,6 +7,16 @@ import { notFound } from "next/navigation"
 export const metadata: Metadata = {
   title: "Cart",
   description: "View your cart",
+  openGraph: {
+    title: "Cart | Medusa Store",
+    description: "View your cart",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Cart | Medusa Store",
+    description: "View your cart",
+  },
 }
 
 export default async function Cart() {

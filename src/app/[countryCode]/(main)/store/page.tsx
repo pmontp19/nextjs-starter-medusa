@@ -6,6 +6,16 @@ import StoreTemplate from "@modules/store/templates"
 export const metadata: Metadata = {
   title: "Store",
   description: "Explore all of our products.",
+  openGraph: {
+    title: "Store | Medusa Store",
+    description: "Explore all of our products.",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Store | Medusa Store",
+    description: "Explore all of our products.",
+  },
 }
 
 type Params = {
@@ -19,8 +29,8 @@ type Params = {
 }
 
 export default async function StorePage(props: Params) {
-  const params = await props.params;
-  const searchParams = await props.searchParams;
+  const params = await props.params
+  const searchParams = await props.searchParams
   const { sortBy, page } = searchParams
 
   return (

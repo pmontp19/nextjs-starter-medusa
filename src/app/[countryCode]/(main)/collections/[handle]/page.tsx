@@ -61,6 +61,16 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
   const metadata = {
     title: `${collection.title} | Medusa Store`,
     description: `${collection.title} collection`,
+    openGraph: {
+      title: `${collection.title} | Medusa Store`,
+      description: `${collection.title} collection`,
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${collection.title} | Medusa Store`,
+      description: `${collection.title} collection`,
+    },
   } as Metadata
 
   return metadata

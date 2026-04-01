@@ -54,6 +54,16 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
     return {
       title: `${title} | Medusa Store`,
       description,
+      openGraph: {
+        title,
+        description,
+        type: "website",
+      },
+      twitter: {
+        card: "summary_large_image",
+        title,
+        description,
+      },
       alternates: {
         canonical: `${params.category.join("/")}`,
       },

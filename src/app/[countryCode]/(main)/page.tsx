@@ -9,6 +9,18 @@ export const metadata: Metadata = {
   title: "Medusa Next.js Starter Template",
   description:
     "A performant frontend ecommerce starter template with Next.js 15 and Medusa.",
+  openGraph: {
+    title: "Medusa Next.js Starter Template",
+    description:
+      "A performant frontend ecommerce starter template with Next.js 15 and Medusa.",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Medusa Next.js Starter Template",
+    description:
+      "A performant frontend ecommerce starter template with Next.js 15 and Medusa.",
+  },
 }
 
 export default async function Home(props: {

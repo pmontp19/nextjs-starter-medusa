@@ -101,10 +101,10 @@ const buttonVariants = cva(
         danger: "bg-red-600 text-white hover:bg-red-700",
       },
       size: {
-        small: "h-8 px-2 text-sm",
-        base: "h-10 px-4 text-base",
+        small: "min-h-[44px] px-2 text-sm",
+        base: "min-h-[44px] px-4 text-base",
         large: "h-12 px-6 text-large",
-        icon: "h-10 w-10",
+        icon: "h-11 w-11",
       },
     },
     defaultVariants: {
