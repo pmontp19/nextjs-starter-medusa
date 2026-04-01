@@ -1,6 +1,7 @@
+import { clsx as clx } from "clsx"
 import { listCategories } from "@lib/data/categories"
 import { listCollections } from "@lib/data/collections"
-import { Text, clx } from "@/modules/common/components/ui"
+import { Text } from "@/modules/common/components/ui"
 
 import LocalizedClientLink from "@modules/common/components/localized-client-link"
 import MedusaCTA from "@modules/layout/components/medusa-cta"

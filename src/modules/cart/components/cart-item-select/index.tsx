@@ -1,6 +1,8 @@
 "use client"
 
-import { IconBadge, clx } from "@/modules/common/components/ui"
+import { clsx as clx } from "clsx"
+
+import { IconBadge } from "@/modules/common/components/ui"
 import {
   SelectHTMLAttributes,
   forwardRef,

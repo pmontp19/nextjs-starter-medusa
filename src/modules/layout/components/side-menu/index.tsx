@@ -1,8 +1,10 @@
 "use client"
 
+import { clsx as clx } from "clsx"
+
 import { Popover, PopoverPanel, Transition } from "@headlessui/react"
 import { ArrowRight, X } from "lucide-react"
-import { Text, clx, useToggleState } from "@/modules/common/components/ui"
+import { Text, useToggleState } from "@/modules/common/components/ui"
 import { Fragment } from "react"
 
 import LocalizedClientLink from "@modules/common/components/localized-client-link"

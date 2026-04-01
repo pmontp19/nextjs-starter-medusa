@@ -1,5 +1,6 @@
+import { clsx as clx } from "clsx"
 import { Circle } from "lucide-react"
-import { Label, RadioGroup, Text, clx } from "@/modules/common/components/ui"
+import { Label, RadioGroup, Text } from "@/modules/common/components/ui"
 
 type FilterRadioGroupProps = {
   title: string

@@ -1,8 +1,10 @@
 "use client"
 
+import { clsx as clx } from "clsx"
+
 import React, { useEffect, useState, useActionState } from "react"
 import { Pencil as Edit, Trash2 } from "lucide-react"
-import { Button, Heading, Text, clx } from "@/modules/common/components/ui"
+import { Button, Heading, Text } from "@/modules/common/components/ui"
 
 import useToggleState from "@lib/hooks/use-toggle-state"
 import CountrySelect from "@modules/checkout/components/country-select"

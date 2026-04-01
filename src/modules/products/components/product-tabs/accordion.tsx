@@ -1,4 +1,5 @@
-import { Text, clx } from "@/modules/common/components/ui"
+import { clsx as clx } from "clsx"
+import { Text } from "@/modules/common/components/ui"
 import { Accordion } from "@base-ui/react/accordion"
 import React from "react"
 

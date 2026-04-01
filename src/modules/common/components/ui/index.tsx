@@ -19,7 +19,6 @@ import { Toaster as SonnerToaster, toast } from "sonner"
 import { Loader2 } from "lucide-react"
 import useToggleState from "@lib/hooks/use-toggle-state"
 
-export { clsx as clx }
 export { cn }
 export { toast }
 export { useToggleState }

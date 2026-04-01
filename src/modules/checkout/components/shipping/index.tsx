@@ -1,12 +1,14 @@
 "use client"
 
+import { clsx as clx } from "clsx"
+
 import { Radio, RadioGroup } from "@headlessui/react"
 import { setShippingMethod } from "@lib/data/cart"
 import { calculatePriceForShippingOption } from "@lib/data/fulfillment"
 import { convertToLocale } from "@lib/util/money"
 import { CheckCircle2, Loader } from "lucide-react"
 import { HttpTypes } from "@medusajs/types"
-import { Button, clx, Heading, Text } from "@/modules/common/components/ui"
+import { Button, Heading, Text } from "@/modules/common/components/ui"
 import ErrorMessage from "@modules/checkout/components/error-message"
 import Divider from "@modules/common/components/divider"
 import MedusaRadio from "@modules/common/components/radio"

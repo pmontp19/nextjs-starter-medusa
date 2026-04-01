@@ -1,6 +1,7 @@
 "use client"
 
-import { clx } from "@/modules/common/components/ui"
+import { clsx as clx } from "clsx"
+
 import { usePathname, useRouter, useSearchParams } from "next/navigation"
 
 export function Pagination({

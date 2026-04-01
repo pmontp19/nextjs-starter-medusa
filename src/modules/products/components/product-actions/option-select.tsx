@@ -1,5 +1,5 @@
+import { clsx as clx } from "clsx"
 import { HttpTypes } from "@medusajs/types"
-import { clx } from "@/modules/common/components/ui"
 import React from "react"
 
 type OptionSelectProps = {

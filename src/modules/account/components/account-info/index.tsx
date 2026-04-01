@@ -1,5 +1,6 @@
+import { clsx as clx } from "clsx"
 import { Disclosure } from "@headlessui/react"
-import { Badge, Button, clx } from "@/modules/common/components/ui"
+import { Badge, Button } from "@/modules/common/components/ui"
 import { useEffect } from "react"
 
 import useToggleState from "@lib/hooks/use-toggle-state"

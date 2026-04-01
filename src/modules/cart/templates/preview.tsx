@@ -1,8 +1,10 @@
 "use client"
 
+import { clsx as clx } from "clsx"
+
 import repeat from "@lib/util/repeat"
 import { HttpTypes } from "@medusajs/types"
-import { Table, clx } from "@/modules/common/components/ui"
+import { Table } from "@/modules/common/components/ui"
 
 import Item from "@modules/cart/components/item"
 import SkeletonLineItem from "@modules/skeletons/components/skeleton-line-item"

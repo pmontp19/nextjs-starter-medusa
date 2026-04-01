@@ -1,6 +1,8 @@
 "use client"
 
-import { Heading, Text, clx } from "@/modules/common/components/ui"
+import { clsx as clx } from "clsx"
+
+import { Heading, Text } from "@/modules/common/components/ui"
 
 import PaymentButton from "../payment-button"
 import { useSearchParams } from "next/navigation"

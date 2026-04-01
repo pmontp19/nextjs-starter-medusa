@@ -1,4 +1,4 @@
-import { clx } from "@/modules/common/components/ui"
+import { clsx as clx } from "clsx"
 
 import { getProductPrice } from "@lib/util/get-product-price"
 import { HttpTypes } from "@medusajs/types"

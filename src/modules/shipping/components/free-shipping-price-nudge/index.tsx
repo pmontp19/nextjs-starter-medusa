@@ -1,5 +1,7 @@
 "use client"
 
+import { clsx as clx } from "clsx"
+
 import { convertToLocale } from "@lib/util/money"
 import { CheckCircle2, X } from "lucide-react"
 import {
@@ -8,7 +10,7 @@ import {
   StoreCartShippingOption,
   StorePrice,
 } from "@medusajs/types"
-import { Button, clx } from "@/modules/common/components/ui"
+import { Button } from "@/modules/common/components/ui"
 import LocalizedClientLink from "@modules/common/components/localized-client-link"
 import { useState } from "react"
 import { StoreFreeShippingPrice } from "types/global"

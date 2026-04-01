@@ -1,6 +1,6 @@
+import { clsx as clx } from "clsx"
 import { Listbox, Transition } from "@headlessui/react"
 import { ChevronsUpDown } from "lucide-react"
-import { clx } from "@/modules/common/components/ui"
 import { Fragment, useMemo } from "react"
 
 import Radio from "@modules/common/components/radio"

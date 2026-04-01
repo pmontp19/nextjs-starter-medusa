@@ -1,5 +1,5 @@
+import { clsx as clx } from "clsx"
 import { ChevronsUpDown } from "lucide-react"
-import { clx } from "@/modules/common/components/ui"
 import {
   SelectHTMLAttributes,
   forwardRef,
