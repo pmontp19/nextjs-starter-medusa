@@ -1,7 +1,7 @@
 "use client"
 
-import { Plus } from "@medusajs/icons"
-import { Button, Heading } from "@medusajs/ui"
+import { Plus } from "lucide-react"
+import { Button, Heading } from "@/modules/common/components/ui"
 import { useEffect, useState, useActionState } from "react"
 
 import useToggleState from "@lib/hooks/use-toggle-state"

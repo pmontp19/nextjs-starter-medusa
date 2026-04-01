@@ -1,8 +1,8 @@
 "use client"
 
 import React, { useEffect, useState, useActionState } from "react"
-import { PencilSquare as Edit, Trash } from "@medusajs/icons"
-import { Button, Heading, Text, clx } from "@medusajs/ui"
+import { Pencil as Edit, Trash2 } from "lucide-react"
+import { Button, Heading, Text, clx } from "@/modules/common/components/ui"
 
 import useToggleState from "@lib/hooks/use-toggle-state"
 import CountrySelect from "@modules/checkout/components/country-select"
@@ -115,7 +115,7 @@ const EditAddress: React.FC<EditAddressProps> = ({
             onClick={removeAddress}
             data-testid="address-delete-button"
           >
-            {removing ? <Spinner /> : <Trash />}
+            {removing ? <Spinner /> : <Trash2 />}
             Remove
           </button>
         </div>

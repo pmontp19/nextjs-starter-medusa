@@ -1,5 +1,5 @@
-import { Github } from "@medusajs/icons"
-import { Button, Heading } from "@medusajs/ui"
+import { Github } from "lucide-react"
+import { Button, Heading } from "@/modules/common/components/ui"
 
 const Hero = () => {
   return (

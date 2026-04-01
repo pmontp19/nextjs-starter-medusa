@@ -3,8 +3,14 @@
 import { RadioGroup } from "@headlessui/react"
 import { isStripeLike, paymentInfoMap } from "@lib/constants"
 import { initiatePaymentSession } from "@lib/data/cart"
-import { CheckCircleSolid, CreditCard } from "@medusajs/icons"
-import { Button, Container, Heading, Text, clx } from "@medusajs/ui"
+import { CheckCircle2, CreditCard } from "lucide-react"
+import {
+  Button,
+  Container,
+  Heading,
+  Text,
+  clx,
+} from "@/modules/common/components/ui"
 import ErrorMessage from "@modules/checkout/components/error-message"
 import PaymentContainer, {
   StripeCardContainer,
@@ -118,7 +124,7 @@ const Payment = ({
           )}
         >
           Payment
-          {!isOpen && paymentReady && <CheckCircleSolid />}
+          {!isOpen && paymentReady && <CheckCircle2 />}
         </Heading>
         {!isOpen && paymentReady && (
           <Text>

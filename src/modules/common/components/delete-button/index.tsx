@@ -1,6 +1,6 @@
 import { deleteLineItem } from "@lib/data/cart"
-import { Spinner, Trash } from "@medusajs/icons"
-import { clx } from "@medusajs/ui"
+import { Loader2 as Spinner, Trash2 as Trash } from "lucide-react"
+import { clx } from "@/modules/common/components/ui"
 import { useState } from "react"
 
 const DeleteButton = ({

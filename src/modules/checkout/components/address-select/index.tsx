@@ -1,6 +1,6 @@
 import { Listbox, Transition } from "@headlessui/react"
-import { ChevronUpDown } from "@medusajs/icons"
-import { clx } from "@medusajs/ui"
+import { ChevronsUpDown } from "lucide-react"
+import { clx } from "@/modules/common/components/ui"
 import { Fragment, useMemo } from "react"
 
 import Radio from "@modules/common/components/radio"
@@ -46,7 +46,7 @@ const AddressSelect = ({
                   ? selectedAddress.address_1
                   : "Choose an address"}
               </span>
-              <ChevronUpDown
+              <ChevronsUpDown
                 className={clx("transition-rotate duration-200", {
                   "transform rotate-180": open,
                 })}

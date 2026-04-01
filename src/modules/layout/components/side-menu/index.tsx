@@ -1,8 +1,8 @@
 "use client"
 
 import { Popover, PopoverPanel, Transition } from "@headlessui/react"
-import { ArrowRightMini, XMark } from "@medusajs/icons"
-import { Text, clx, useToggleState } from "@medusajs/ui"
+import { ArrowRight, X } from "lucide-react"
+import { Text, clx, useToggleState } from "@/modules/common/components/ui"
 import { Fragment } from "react"
 
 import LocalizedClientLink from "@modules/common/components/localized-client-link"
@@ -68,7 +68,7 @@ const SideMenu = ({ regions, locales, currentLocale }: SideMenuProps) => {
                   >
                     <div className="flex justify-end" id="xmark">
                       <button data-testid="close-menu-button" onClick={close}>
-                        <XMark />
+                        <X />
                       </button>
                     </div>
                     <ul className="flex flex-col gap-6 items-start justify-start">
@@ -99,7 +99,7 @@ const SideMenu = ({ regions, locales, currentLocale }: SideMenuProps) => {
                             locales={locales}
                             currentLocale={currentLocale}
                           />
-                          <ArrowRightMini
+                          <ArrowRight
                             className={clx(
                               "transition-transform duration-150",
                               languageToggleState.state ? "-rotate-90" : ""
@@ -118,7 +118,7 @@ const SideMenu = ({ regions, locales, currentLocale }: SideMenuProps) => {
                             regions={regions}
                           />
                         )}
-                        <ArrowRightMini
+                        <ArrowRight
                           className={clx(
                             "transition-transform duration-150",
                             countryToggleState.state ? "-rotate-90" : ""
